@@ -3,4 +3,4 @@ m.sort()
 m
 spam=['a','z','A','Z']
 spam.sort(key=str.lower)
-spam
+print(spam)
