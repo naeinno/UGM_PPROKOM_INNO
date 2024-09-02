@@ -1,0 +1,25 @@
+Nilai=int(input('Masukkan Nilai 1:'))
+if(Nilai>=70):
+    print("Selamat, Anda lulus!")
+else:
+    print("Maaf, Anda tidak lulus")
+Nilai=int(input('Masukkan Nilai 2:'))
+if(Nilai>=70):
+    print("Selamat, Anda lulus!")
+else:
+    print("Maaf, Anda tidak lulus")
+Nilai=int(input('Masukkan Nilai 3:'))
+if(Nilai>=70):
+    print("Selamat, Anda lulus!")
+else:
+    print("Maaf, Anda tidak lulus")
+Nilai=int(input('Masukkan Nilai 4:'))
+if(Nilai>=70):
+    print("Selamat, Anda lulus!")
+else:
+    print("Maaf, Anda tidak lulus")
+Nilai=int(input('Masukkan Nilai 5:'))
+if(Nilai>=70):
+    print("Selamat, Anda lulus!")
+else:
+    print("Maaf, Anda tidak lulus")
