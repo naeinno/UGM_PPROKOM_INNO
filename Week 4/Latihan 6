@@ -1,0 +1,13 @@
+Pilihan=["Gunting","Batu","Kertas"]
+Pilihan_pemain_1=str(input("Masukkan Pilihan Pemain 1:"))
+Pilihan_pemain_2=str(input("Masukkan Pilihan Pemain 2:"))
+if Pilihan_pemain_1==Pilihan_pemain_2:
+    print("Hasilnya adalah seri")
+elif Pilihan_pemain_1=="Gunting" and Pilihan_pemain_2=="Kertas":
+    print("Pemain 1 menang")
+elif Pilihan_pemain_1=="Batu" and Pilihan_pemain_2=="Gunting":
+    print("Pemain 1 menang")
+elif Pilihan_pemain_1=="Kertas" and Pilihan_pemain_2=="Batu":
+    print("Pemain 1 menang")
+else:
+    print("Pemain 2 menang")
