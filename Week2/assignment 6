@@ -1,0 +1,20 @@
+# set integer
+my_set={1,2,3}
+print(my_set)
+
+#set_dengan_menggunakan_fungsi_set()
+my_set=set([1,2,3])
+print(my_set)
+
+#set_data_campuran
+my_set={1, 2.0, "Python", (3,4,5)}
+print(my_set)
+
+#bila_kita_mengisi_duplikasi,set_akan_,menghilangkan_salah_satu
+#output:{1,2,3}
+my_set={1,2,2,3,3,3}
+print(my_set)
+
+#set_tidak_bisa_berisi_anggota_list
+#contoh_berikut_akan_muncul_error_TypeError
+my_set=(1,2,[3,4,5])
