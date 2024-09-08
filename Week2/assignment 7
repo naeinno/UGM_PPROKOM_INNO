@@ -1,1 +1,6 @@
-
+d={1:'satu',2:'dua',3:'tiga'}
+print(type(d))
+print("d[1]=",d[1])
+print("d['tiga']=",d[3])
+# Error
+print("d[3] = ", d[3])
