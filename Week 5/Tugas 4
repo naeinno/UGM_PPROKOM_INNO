@@ -1,0 +1,8 @@
+data,angka,i,jumlah=0,0,0,0
+data=int(input("Masukkan banyak data:"))
+for i in range (0,data):
+    angka=int(input("Masukkan angka:"))
+    jumlah+=angka
+print("Jumlah:",jumlah)
+RataRata=jumlah/data
+print("Rata-Rata:", RataRata)
