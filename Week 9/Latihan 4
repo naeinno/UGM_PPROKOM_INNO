@@ -1,0 +1,10 @@
+jumlah_elemen=int(input("Masukkan jumlah elemen dalam array:"))
+array=list(range(1, jumlah_elemen + 1))
+print("Data Array:", array)
+bilangan_bulat_kelipatan=int(input("Masukkan kelipatan yang ingin ditampilkan:"))
+kelipatan=[n for n in array if n%bilangan_bulat_kelipatan==0]
+
+if kelipatan:
+    print("Elemen yang merupakan kelipatan dari", bilangan_bulat_kelipatan, ":", kelipatan)
+else:
+    print("Tidak ada elemen kelipatan dari", bilangan_kelipatan)
