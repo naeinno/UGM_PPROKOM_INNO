@@ -1,7 +1,7 @@
 array=[4, 5, 11, 12, 14, 16, 16, 19]
 
 prima=[n for n in array if n>1 and all(n%i!=0 for i in range(2, int(n**0.5)+1))]
-total=sum(prima)
+total=len(prima)
 
 print("Bilangan prima:", prima)
 print("Jumlah bilangan prima:", total)
