@@ -1,0 +1,16 @@
+list_nilai=[]
+
+for i in range (5):
+    nilai=float(input("Masukkan angka ke-{}:".format(i+1)))
+    list_nilai.append(nilai)
+    print(list_nilai)
+total=sum(list_nilai)
+while(True):
+    pilihan=input("Ingin melihat hasil jumlah atau rata-rata:")
+    if pilihan=="jumlah":
+        print(f"jumlah dari nilai datanya adalah:{total}")
+        break
+    elif pilihan=="rata-rata":
+        rata_rata=total/len(list_nilai)
+        print(f"rata-rata dari nilai datanya adalah:{rata_rata}")
+        break
