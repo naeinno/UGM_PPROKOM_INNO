@@ -1,0 +1,12 @@
+daftar_angka=[1, 5, 4, 6, 7, 12, 45, 9, 99, 55, 100, 88, 75, 60]
+
+genap=[num for num in daftar_angka if num%2==0]
+ganjil=[num for num in daftar_angka if num%2!=0]
+total_bilangan_genap=len(genap)
+total_bilangan_ganjil=len(ganjil)
+
+print(daftar_angka)
+print("Ini adalah angka genap:", genap)
+print("Jumlah angka genap:", total_bilangan_genap, "angka")
+print("Ini adalah angka ganjil:", ganjil)
+print("Jumlah angka ganjil:", total_bilangan_ganjil, "angka")
