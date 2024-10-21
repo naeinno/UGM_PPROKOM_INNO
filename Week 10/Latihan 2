@@ -1,0 +1,13 @@
+#Deklarasi matriks
+matriks=[]
+
+for i in range (2):
+    baris=[]
+    for j in range (3):
+        while True:
+            nilai_matriks=int(input(f"Masukkan nilai ke-[{i}][{j}]:"))
+            baris.append(nilai_matriks)
+            break
+    matriks.append(baris)
+for i,baris in enumerate(matriks):
+    print(' '.join(map(str, baris)))
